@@ -67,11 +67,13 @@ Use Google Colab or Jupyter Notebook
 
 Execute the cells sequentially to reproduce the analysis and results
 
+
 PRODIGY_DS_03/
 ├── bank-full.csv
 ├── Decision_Tree_BankMarketing.ipynb
 ├── output.png
 └── README.md
+
 
 📌 Keywords
 Machine Learning   Decision Tree   Data Science   Bank Marketing   Classification   Python   Colab
