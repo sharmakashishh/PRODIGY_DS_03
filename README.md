@@ -1,20 +1,19 @@
-# 🧠 Bank Marketing Analysis using Decision Tree Classifier
+# 🧠 Bank Marketing Prediction using Decision Tree
 
-This project focuses on predicting whether a customer will subscribe to a term deposit using the **Bank Marketing Dataset**.  
-A **Decision Tree Classifier** is applied to train and evaluate the model based on customer details and previous campaign interactions.
-
----
-
-## 📌 Dataset Information
-
-- Total Records: 45,211  
-- Attributes: 17  
-- Target Variable: `y` (yes/no) — whether the client subscribed to a term deposit  
-- File Used: `bank-full.csv`
+This project uses a **Decision Tree Classifier** to predict whether a customer will subscribe to a term deposit based on the **Bank Marketing Dataset**. The model is trained and tested in **Google Colab** using Python.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📁 Dataset
+
+- File: `bank-full.csv`  
+- Records: 45,211  
+- Features: 17  
+- Target: `y` (yes/no – subscribed to term deposit)
+
+---
+
+## 🔧 Tools & Libraries
 
 - Python  
 - Google Colab  
@@ -22,28 +21,33 @@ A **Decision Tree Classifier** is applied to train and evaluate the model based 
 
 ---
 
-## 🚀 Steps Performed
+## ✅ Process
 
-- Data loading and preprocessing  
-- Encoding categorical variables using LabelEncoder  
-- Splitting dataset into training and testing sets (70:30)  
-- Training the Decision Tree Classifier  
-- Evaluating the model using Accuracy, Confusion Matrix, and Classification Report
+- Load and encode dataset  
+- Split into training and testing sets  
+- Train Decision Tree Classifier  
+- Evaluate using accuracy and confusion matrix
 
 ---
 
 ## 📊 Output
 
-### ✔️ Accuracy: ~88%
-
-### 🧾 Confusion Matrix:
+- **Accuracy**: ~88%  
+- **Confusion Matrix**:
 
 ![Confusion Matrix](https://github.com/sharmakashishh/PRODIGY_DS_03/blob/main/decision_tree.png)
 
 ---
 
-## ▶️ How to Run
+## ▶️ Run This Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sharmakashishh/PRODIGY_DS_03.git
+📌 [Open in Colab](https://colab.research.google.com/drive/1c6dQZ4U-PP-ZvE-6Aw0N0UzyUbyxLnVI)  
+📂 Upload `bank-full.csv` when prompted  
+▶️ Run all cells to view the results
+
+---
+
+## 👤 Author
+
+**Kashish Sharma**  
+[LinkedIn](https://www.linkedin.com/in/kashishsharmaa14) | [GitHub](https://github.com/sharmakashishh)
